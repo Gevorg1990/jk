@@ -26,8 +26,8 @@
 <script>
     window.addEventListener('deviceorientation', function(event) {
         console.log(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);
-        document.querySelector('.circle').style.left = event.alpha + 'px'
-        document.querySelector('.circle').style.top = event.beta + 'px'
+        document.querySelector('.circle').style.left = event.alpha/6 + '%'
+        document.querySelector('.circle').style.top = event.beta /6 + '%'
     });
 </script>
 </body>
