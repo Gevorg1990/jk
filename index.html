@@ -37,8 +37,8 @@
 <script>
     window.addEventListener('deviceorientation', function(event) {
         console.log(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);
-        document.querySelector('.circle').style.marginLeft = event.alpha + 40 + 'px'
-        document.querySelector('.circle').style.marginTop = event.beta + 40 + 'px'
+        document.querySelector('.circle').style.marginLeft = event.alpha *2 + 'px'
+        document.querySelector('.circle').style.marginTop = event.beta *2+ 'px'
     });
 </script>
 </body>
